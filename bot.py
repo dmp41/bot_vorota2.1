@@ -1,7 +1,6 @@
 import asyncio
 from aiogram.client.session.aiohttp import AiohttpSession
 from aiogram import Bot, Dispatcher
-#from handlers import other_handlers, user_handlers
 from background import keep_alive
 from config_data.config import Config, load_config
 from handlers import user_handlers
