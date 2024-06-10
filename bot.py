@@ -23,7 +23,8 @@ async def main():
     # Пропускаем накопившиеся апдейты и запускаем polling hhfk
     await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
-
+# Запускаем веб страницу
 keep_alive()
+
 if __name__ == '__main__':
     asyncio.run(main())
